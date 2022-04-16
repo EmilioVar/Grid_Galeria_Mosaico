@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 99vw;
+            height: 97vh;
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            grid-gap: 10px;
+        }
+        .uno{
+            background-image: url(https://picsum.photos/500/?a);
+            background-size: cover;
+            background-repeat: no-repeat;
+            grid-column: span 2;
+        }
+        .dos{
+            background-image: url(https://picsum.photos/500/?b);
+            background-size: cover;
+            grid-row: span 2;
+        }
+        .tres{
+            background-image: url(https://picsum.photos/500/?c);
+            background-size: cover;
+            grid-column: span 2;
+            grid-row: span 3;
+        }
+        .cuatro{
+            background-image: url(https://picsum.photos/500/?d);
+            background-size: cover;
+            grid-column: span 2;
+
+        }
+        .cinco{
+            background-image: url(https://picsum.photos/500/?e);
+            background-size: cover;
+
+        }
+        .seis{
+            transition: 1s;
+            background-image: url(https://picsum.photos/500/?f);
+            background-size: cover;
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .siete{
+            background-image: url(https://picsum.photos/500/?g);
+            background-size: cover;
+        }
+        .ocho{
+            background-image: url(https://picsum.photos/500/?h);
+            background-size: cover;
+        }
+        .nueve{
+            background-image: url(https://picsum.photos/500/?i);
+            background-size: cover;
+        }
+        .diez{
+            background-image: url(https://picsum.photos/500/?j);
+            background-size: cover;
+        }
+        .uno:hover{
+            transition: 1s ease-in-out;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+        }
+        .dos:hover{
+            transition: 1s ease-in-out;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+        }
+        .tres:hover{
+            transition: 1s ease-in-out;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+        }
+        .cuatro:hover{
+            transition: 1s ease-in-out;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+        }
+        .cinco:hover{
+            transition: 1s ease-in-out;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+        }
+        .seis:hover{
+            transition: 1s ease-in-out;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+        }
+        .siete:hover{
+            transition: 1s ease-in-out;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+        }
+        .ocho:hover{
+            transition: 1s ease-in-out;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+        }
+        .nueve:hover{
+            transition: 1s ease-in-out;
+            transform: scale(1.1);
+            background-repeat: no-repeat;
+        }
+        .flex{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: aliceblue;
+            font-size: 3em;
+            box-shadow: 0px 5px 5px black;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="uno flex">uno</div>
+        <div class="dos flex">dos</div>
+        <div class="tres flex">tres</div>
+        <div class="cuatro flex">cuatro</div>
+        <div class="cinco flex">cinco</div>
+        <div class="seis flex">seis</div>
+        <div class="siete flex">siete</div>
+        <div class="ocho flex">ocho</div>
+        <div class="nueve flex">nueve</div>
+        </main>
+</body>
+</html>
